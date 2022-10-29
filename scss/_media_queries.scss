@@ -1,0 +1,121 @@
+@media screen and (max-width: $media-query-mobile) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        font-size: 1em;
+    }
+
+    header .contenido {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        background: #064f5c;
+        color: #064f5c;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 0 0;
+    }
+
+    a:hover {
+        background-color: rgb(11, 131, 121);
+        color: black;
+        border-radius: 20%;
+        transition: 0.8s;
+    }
+
+    #principal img {
+        height: 420px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    #nosotros {
+        display: block;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .carta-1,
+    .carta-2,
+    .carta-3 {
+        color: white;
+        font-size: 20px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        border: 1px solid whitesmoke;
+        padding: 10px;
+        object-fit: contain;
+
+    }
+
+    .carta-1 img,
+    .carta-2 img,
+    .carta-3 img {
+        height: 420px;
+        width: 100%;
+        object-fit: contain;
+        padding: 5px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 280px;
+        grid-template-rows: 300px;
+        margin-top: 40px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+
+    .grid-item {
+        background-color: #CEC5B0;
+        border: 1px solid rgb(80, 62, 62);
+        padding: 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .grid-item img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+}

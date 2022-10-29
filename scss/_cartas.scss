@@ -1,0 +1,31 @@
+.carta-1,
+.carta-3 {
+    color: $color-blanco;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid $color-blanco-humo;
+    background: #9b917a;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.carta-img {
+    height: 350px;
+    width: 100%;
+    padding: 10px;
+}
+
+.carta-2 {
+    color: $color-blanco;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #685c41;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,28 @@
+ul {
+    background: #064f5c;
+    color: #064f5c;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(11, 131, 121);
+    color: black;
+    border-radius: 3px;
+    padding: 8px 12px;
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+.navegacion {
+    margin-right: 20px;
+
+}
